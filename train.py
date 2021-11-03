@@ -15,7 +15,7 @@ seed = 42
 #############################
 
 # load the data
-os.chdir('Users/xmxm200/Documents/wine')
+os.chdir('Users/xmxm200/example_cml')
 df = pd.read_csv('wine_quality.csv')
 
 # split into train and test
